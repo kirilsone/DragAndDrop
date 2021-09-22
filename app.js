@@ -4,11 +4,11 @@ item.addEventListener('dragstart', dragstart)
 item.addEventListener('dragend',  dragend)
 
 function dragstart(event) {
-    console.log('drag start', event.target)
     event.target.classList.add('hold')
+    setTimeout(() => event.target.classList.add('hide'),0)
+
 }
 
 function dragend() {
-    console.log('dragend')
     event.target.classList.remove('hold')
 }

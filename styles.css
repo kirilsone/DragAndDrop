@@ -64,6 +64,10 @@ body {
 }
 
 .hold {
-  border: 2px dotted deeppink;
+border: 2px solid #68e0cf;
 
+}
+
+.hide {
+  display: none;
 }
