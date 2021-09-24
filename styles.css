@@ -65,9 +65,12 @@ body {
 
 .hold {
 border: 2px solid #68e0cf;
-
 }
 
 .hide {
   display: none;
+}
+
+.hovered {
+  border-top: #68e0cf 2px solid ;
 }
